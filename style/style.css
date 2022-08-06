@@ -1,5 +1,10 @@
 body {
   font-family: "Inter", sans-serif;
+  color: #211B12;
+}
+
+a {
+  color: #211B12;
 }
 
 .container {
@@ -115,4 +120,94 @@ body {
 .social-list__link {
   display: inline-block;
   padding: 8px;
+}
+
+.portfolio__heading {
+  color: #BF7506;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  margin-bottom: 32px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+}
+.cards__card {
+  max-width: 400px;
+}
+.cards__content-wrapper {
+  padding: 16px;
+}
+.cards__card-title {
+  color: #BF7506;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.cards__tags-list {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.cards__tags-link {
+  text-decoration: none;
+  padding: 4px 8px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  background: #fff;
+  border: 1px solid #DD9C3C;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+.cards__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.cards__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.cards__buttons-link {
+  margin-right: 25px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7px 8px;
+  border-bottom: 2px solid #BF7506;
+}
+.cards__buttons-text {
+  margin-left: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
 }/*# sourceMappingURL=style.css.map */
