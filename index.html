@@ -12,26 +12,72 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="main__header">
-        <div class="navbar">
-            <img src="images/logo-union.svg" alt="logo">
-            <nav class="navigation">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#" class="nav__link active">Главная</a>
+    <div class="navbar container">
+        <img src="images/logo-union.svg" alt="logo">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#" class="nav__link active">Главная</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Проекты</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Обо мне</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Связаться</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- /.navbar -->
+
+    <header class="header container">
+        <img src="images/avatar-sticker.png" alt="Emoji аватарка " class="header__photo">
+        <!-- /.header__photo -->
+        <div class="header__text">
+            <strong class="header__strong-text">Привет 👋</strong>
+            <h1 class="header__title">
+                <span class="header__title header__title--color">Я фронтенд-разработчик и веб-дизайнер</span><br/>Меня зовут Артем Исламов и я делаю сайты для людей и компаний
+            </h1>
+            <div class="header__social">
+                <ul class="header__social social-list">
+                    <li class="social-list__item">
+                        <a href="#" class="social-list__link">
+                            <img src="images/icons/linkedin.svg" alt="icon LinkIn" class="social-list__social-logo">
+                        </a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Проекты</a>
+                    <li class="social-list__item">
+                        <a href="#" class="social-list__link">
+                            <img src="images/icons/twitter.svg" alt="icon Twitter" class="social-list__social-logo">
+                        </a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Обо мне</a>
+                    <li class="social-list__item">
+                        <a href="#" class="social-list__link">
+                            <img src="images/icons/github.svg" alt="icon Github" class="social-list__social-logo">
+                        </a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Связаться</a>
+                    <li class="social-list__item">
+                        <a href="#" class="social-list__link">
+                            <img src="images/icons/stackoverflow.svg" alt="icon Stackoverflow" class="social-list__social-logo">
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a href="#" class="social-list__link">
+                            <img src="images/icons/youtube.svg" alt="icon Youtube" class="social-list__social-logo">
+                        </a>
                     </li>
                 </ul>
-            </nav>
+                <a href="#" class="btn cv-download" download>
+                    <img src="images/clip.svg" alt="" class="cv-download__icon">
+                    <span class="cv-download__text">Скачать резюме</span>
+                </a>
+            </div>
+            <!-- /.header__links -->
         </div>
+        <!-- /.header__text -->
     </header>
+    <!-- /.header -->
 </body>
 </html>
