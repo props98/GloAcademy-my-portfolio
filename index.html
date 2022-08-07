@@ -39,7 +39,7 @@
         <div class="header__text">
             <strong class="header__strong-text">Привет 👋</strong>
             <h1 class="header__title">
-                <span class="header__title header__title--color">Я фронтенд-разработчик и веб-дизайнер</span><br/>Меня зовут Peter Parker и я делаю сайты для людей и компаний
+                <span class="header__title header__title--color">Я фронтенд-разработчик и веб-дизайнер</span><br/>Меня зовут Питер Паркер и я делаю сайты для людей и компаний
             </h1>
             <div class="header__social">
                 <ul class="header__social social-list">
@@ -69,9 +69,9 @@
                         </a>
                     </li>
                 </ul>
-                <a href="#" class="cv-download" download>
-                    <img src="images/icons/clip.svg" alt="" class="cv-download__icon">
-                    <span class="cv-download__text">Скачать резюме</span>
+                <a href="#" class="btn" download>
+                    <img src="images/icons/clip.svg" alt="" class="btn__icon">
+                    <span class="btn__text">Скачать резюме</span>
                 </a>
             </div>
             <!-- /.header__links -->
@@ -106,13 +106,13 @@
                     </ul>
                     <p class="cards__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <div class="cards__buttons">
-                        <a href="#" class="cards__buttons-link">
-                            <img src="images/icons/code.svg" alt="code icon" class="cards__buttons-icon">
-                            <span class="span cards__buttons-text">Код</span>
+                        <a href="#" class="btn">
+                            <img src="images/icons/code.svg" alt="code icon" class="btn__icon">
+                            <span class="btn__text">Код</span>
                         </a>
-                        <a href="#" class="cards__buttons-link">
-                            <img src="images/icons/check.svg" alt="check icon" class="cards__buttons-icon">
-                            <span class="span cards__buttons-text">Демо</span>
+                        <a href="#" class="btn">
+                            <img src="images/icons/check.svg" alt="check icon" class="btn__icon">
+                            <span class="btn__text">Демо</span>
                         </a>
                     </div>
                 </div>
@@ -132,13 +132,13 @@
                     </ul>
                     <p class="cards__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <div class="cards__buttons">
-                        <a href="#" class="cards__buttons-link">
-                            <img src="images/icons/code.svg" alt="code icon" class="cards__buttons-icon">
-                            <span class="span cards__buttons-text">Код</span>
+                        <a href="#" class="btn">
+                            <img src="images/icons/code.svg" alt="code icon" class="btn__icon">
+                            <span class="btn__text">Код</span>
                         </a>
-                        <a href="#" class="cards__buttons-link">
-                            <img src="images/icons/check.svg" alt="check icon" class="cards__buttons-icon">
-                            <span class="span cards__buttons-text">Демо</span>
+                        <a href="#" class="btn">
+                            <img src="images/icons/check.svg" alt="check icon" class="btn__icon">
+                            <span class="btn__text">Демо</span>
                         </a>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
         <img src="images/developer-photo.png" alt="Peter Parker" class="developer__photo">
         <div class="developer__content">
             <span class="developer__hello-text">Рад вас видеть</span>
-            <h2 class="developer__title">Я Peter Parker</h2>
+            <h2 class="developer__title">Я Питер Паркер</h2>
             <p class="developer__text">Я разрабатываю сайты для людей и компаний. Делаю всё сам: составляю прототип, дизайн-макет, пишу код.</p>
             <span class="developer__motto">Код, Дизайн, Обучение</span>
             <p class="developer__text">Могу собрать страницу для вашей компании, даже если запускать её нужно уже завтра. Из инструментов есть: Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress</p>
@@ -190,6 +190,28 @@
                 <a href="#" class="tags__link">SASS</a>
             </li>
         </ul>
+    </section>
+    <!-- /.skills -->
+    <section class="feedback">
+        <h2 class="feedback__title">Готов обсудить проект...</h2>
+        <form action="#" class="feedback__form form">
+            <div class="form__input-group">
+                <label for="username" class="form__label">Имя</label>
+                <input id="username" type="text" class="form__input">
+            </div>
+            <div class="form__input-group">
+                <label for="useremail" class="form__label">Email</label>
+                <input id="useremail" type="text" class="form__input">
+            </div>
+            <div class="form__input-group">
+                <label for="usermessage" class="form__label">Сообщения</label>
+                <textarea id="usermessage" type="text" cols="30" rowa="30" class="form__input form__input--textarea"></textarea>
+            </div>
+            <button ензу="submit" class="feedback__buttons btn">
+                <img src="images/icons/send.svg" alt="check icon" class="btn__icon">
+                <span class="btn__text">Отправить</span>
+            </button>
+        </form>
     </section>
 </body>
 </html>

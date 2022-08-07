@@ -3,6 +3,11 @@ body {
   color: #211B12;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 a {
   color: #211B12;
 }
@@ -13,8 +18,9 @@ a {
   margin: auto;
 }
 
-.cv-download {
-  margin-left: 55px;
+.btn {
+  list-style: none;
+  margin-right: 55px;
   display: inline-block;
   padding: 7px 8px;
   display: -webkit-box;
@@ -26,7 +32,7 @@ a {
   text-decoration: none;
   border-bottom: 2px solid #BF7506;
 }
-.cv-download__text {
+.btn__text {
   margin-left: 4px;
   color: #211B12;
   font-weight: 700;
@@ -116,6 +122,7 @@ a {
           align-items: center;
   padding: 0;
   list-style: none;
+  margin-right: 55px;
 }
 .social-list__link {
   display: inline-block;
@@ -168,24 +175,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
-.cards__buttons-link {
-  margin-right: 25px;
-  text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 7px 8px;
-  border-bottom: 2px solid #BF7506;
-}
-.cards__buttons-text {
-  margin-left: 4px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 150%;
-}
 
 .tags {
   list-style: none;
@@ -210,6 +199,10 @@ a {
   border: 1px solid #DD9C3C;
   border-radius: 4px;
   margin-right: 4px;
+}
+.tags__link:hover {
+  color: #fff;
+  background: #DD9C3C;
 }
 
 .developer {
@@ -261,4 +254,57 @@ a {
 .developer__sign {
   min-width: 200px;
   margin-top: 35px;
+}
+
+.skills__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+}
+
+.feedback {
+  padding: 80px 0 160px;
+  max-width: 435px;
+  margin: auto;
+}
+.feedback__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  margin-bottom: 16px;
+}
+.feedback__buttons {
+  background: #fff;
+  border: none;
+  margin: 0;
+  margin-left: auto;
+  border-bottom: 2px solid #BF7506;
+  cursor: pointer;
+}
+
+.form__input-group {
+  position: relative;
+  padding-top: 9px;
+  margin-bottom: 24px;
+}
+.form__label {
+  position: absolute;
+  top: 0;
+  left: 16px;
+  padding: 0 8px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #83807C;
+  background: #fff;
+}
+.form__input {
+  width: 100%;
+  height: 56px;
+  border: 3px solid #E0DEDC;
+  border-radius: 4px;
+  padding: 0 16px;
+}
+.form__input--textarea {
+  min-height: 140px;
+  padding-top: 16px;
 }/*# sourceMappingURL=style.css.map */
