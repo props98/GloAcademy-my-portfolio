@@ -17,23 +17,23 @@
         <nav class="navbar__nav nav">
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="#" class="nav__link nav__link--active">Главная</a>
+                    <a href="#main" class="nav__link nav__link--active">Главная</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#" class="nav__link">Проекты</a>
+                    <a href="#portfolio" class="nav__link">Проекты</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#" class="nav__link">Обо мне</a>
+                    <a href="#developer" class="nav__link">Обо мне</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#" class="nav__link">Связаться</a>
+                    <a href="#feedback" class="nav__link">Связаться</a>
                 </li>
             </ul>
         </nav>
     </div>
     <!-- /.navbar -->
 
-    <header class="header container">
+    <header id="main" class="header container">
         <img src="images/avatar-sticker.png" alt="Emoji аватарка " class="header__photo">
         <!-- /.header__photo -->
         <div class="header__text">
@@ -42,7 +42,7 @@
                 <span class="header__title header__title--color">Я фронтенд-разработчик и веб-дизайнер</span><br/>Меня зовут Питер Паркер и я делаю сайты для людей и компаний
             </h1>
             <div class="header__social">
-                <ul class="header__social social-list">
+                <ul class="header__social-list social-list">
                     <li class="social-list__item">
                         <a href="#" class="social-list__link">
                             <img src="images/icons/linkedin.svg" alt="icon LinkIn" class="social-list__social-logo">
@@ -69,7 +69,7 @@
                         </a>
                     </li>
                 </ul>
-                <a href="#" class="btn" download>
+                <a href="#" class="btn btn--download" download>
                     <img src="images/icons/clip.svg" alt="" class="btn__icon">
                     <span class="btn__text">Скачать резюме</span>
                 </a>
@@ -80,7 +80,7 @@
     </header>
     <!-- /.header -->
 
-    <section class="portfolio container">
+    <section id="portfolio" class="portfolio container">
         <h2 class="portfolio__heading">Последние проекты</h2>
         <div class="cards">
             <div class="cards__card">
@@ -147,7 +147,7 @@
         </div>
     </section>
     <!-- /.portfolio -->
-    <section class="developer container">
+    <section id="developer" class="developer container">
         <img src="images/developer-photo.png" alt="Peter Parker" class="developer__photo">
         <div class="developer__content">
             <span class="developer__hello-text">Рад вас видеть</span>
@@ -159,7 +159,7 @@
         </div>
     </section>
     <!-- /.developer container -->
-    <section class="skills container">
+    <section id="skills" class="skills container">
         <h2 class="skills__title">Работаю с разными языками и инструментами</h2>
         <ul class="tags">
             <li class="tags__item">
@@ -192,26 +192,29 @@
         </ul>
     </section>
     <!-- /.skills -->
-    <section class="feedback">
-        <h2 class="feedback__title">Готов обсудить проект...</h2>
-        <form action="#" class="feedback__form form">
-            <div class="form__input-group">
-                <label for="username" class="form__label">Имя</label>
-                <input id="username" type="text" class="form__input">
-            </div>
-            <div class="form__input-group">
-                <label for="useremail" class="form__label">Email</label>
-                <input id="useremail" type="text" class="form__input">
-            </div>
-            <div class="form__input-group">
-                <label for="usermessage" class="form__label">Сообщения</label>
-                <textarea id="usermessage" type="text" cols="30" rowa="30" class="form__input form__input--textarea"></textarea>
-            </div>
-            <button ензу="submit" class="feedback__buttons btn">
-                <img src="images/icons/send.svg" alt="check icon" class="btn__icon">
-                <span class="btn__text">Отправить</span>
-            </button>
-        </form>
+    <section id="feedback" class="feedback">
+        <img src="images/hand.png" alt="Emoji hand" class="feedback__bg-img">
+        <div class="feedback__form-container">
+            <h2 class="feedback__title">Готов обсудить проект...</h2>
+            <form action="#" class="feedback__form form">
+                <div class="form__input-group">
+                    <label for="username" class="form__label">Имя</label>
+                    <input id="username" type="text" class="form__input">
+                </div>
+                <div class="form__input-group">
+                    <label for="useremail" class="form__label">Email</label>
+                    <input id="useremail" type="text" class="form__input">
+                </div>
+                <div class="form__input-group">
+                    <label for="usermessage" class="form__label">Сообщения</label>
+                    <textarea id="usermessage" type="text" cols="30" rowa="30" class="form__input form__input--textarea"></textarea>
+                </div>
+                <button ензу="submit" class="feedback__buttons btn">
+                    <img src="images/icons/send.svg" alt="check icon" class="btn__icon">
+                    <span class="btn__text">Отправить</span>
+                </button>
+            </form>
+        </div>
     </section>
 </body>
 </html>
