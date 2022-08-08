@@ -396,7 +396,7 @@ a {
 }
 
 .feedback {
-  padding: 80px 0 160px;
+  padding: 80px 0 80px;
   margin: auto;
   position: relative;
 }
@@ -432,7 +432,7 @@ a {
 }
 @media (max-width: 600px) {
   .feedback {
-    padding: 30px 0 100px;
+    padding: 30px 0 50px;
   }
 }
 @media (max-width: 480px) {
@@ -465,4 +465,11 @@ a {
 .form__input--textarea {
   min-height: 140px;
   padding-top: 16px;
+}
+
+.footer__text {
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #83807C;
 }/*# sourceMappingURL=style.css.map */
