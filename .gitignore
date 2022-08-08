@@ -1,5 +1,8 @@
 # dependecies
 /node_modules
 
+# teh-images
+/Add-botFather
+
 # other files
 .DS_Store
